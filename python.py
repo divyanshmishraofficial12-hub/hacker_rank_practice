@@ -42,10 +42,18 @@ def is_leap(yr):
    if yr % 400 == 0:
     return True
    elif yr % 100 == 0:
-    return True
+    return False
    elif yr % 4 == 0:
      return True
    else:
      return False
 
 print(is_leap(yr))
+
+
+# ques 6
+
+no=int(input())
+for i in range(1,no+1):
+
+    print(i,end="")
