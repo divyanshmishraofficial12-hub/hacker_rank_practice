@@ -32,3 +32,20 @@ n = int(input())
     
 for i in range(n):
     print(i**2)
+
+#  ques 5
+
+yr=int(input())
+
+
+def is_leap(yr):
+   if yr % 400 == 0:
+    return True
+   elif yr % 100 == 0:
+    return True
+   elif yr % 4 == 0:
+     return True
+   else:
+     return False
+
+print(is_leap(yr))
