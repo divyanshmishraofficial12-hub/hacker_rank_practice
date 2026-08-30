@@ -57,3 +57,15 @@ no=int(input())
 for i in range(1,no+1):
 
     print(i,end="")
+
+# ques 7
+
+for _ in range(int(input())):
+    set_A=int(input())
+    a=set(map(int,input().split()))
+
+    set_b=int(input())
+    b=set(map(int, input().split()))
+
+    print(a.issubset(b))
+
