@@ -9,3 +9,12 @@ elif no >=6 and no <= 20:
     print("more weird..!")
 else:
     print("more and more weird..!")
+
+    # question 2
+
+a = int(input())
+b = int(input())
+    
+print(a+b)
+print(a-b)
+print(a*b)
