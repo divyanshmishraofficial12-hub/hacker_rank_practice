@@ -25,3 +25,10 @@ b = int(input())
     
 print(a//b) 
 print(a/b)
+
+# ques 4
+
+n = int(input())
+    
+for i in range(n):
+    print(i**2)
